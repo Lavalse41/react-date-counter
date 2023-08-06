@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 function StepCount() {
   const [count, setCount] = useState(0);
   const [step, setStep] = useState(0);
